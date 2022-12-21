@@ -1,4 +1,3 @@
-# ~/static-comments/.github/workflows/deploy.yaml
 name: Deploy to AWS Lambda
 
 on:
