@@ -25,5 +25,6 @@ functions:
           method: ANY
           cors: true
     environment:
-      GITHUB_TOKEN: ${env:STATICMAN_GITHUB_TOKEN}
+      GITHUB_APP_ID: ${env:SSTATICMAN_GITHUB_APP_ID}
+      GITHUB_PRIVATE_KEY: ${env:STATICMAN_GITHUB_PRIVATE_KEY}
       RSA_PRIVATE_KEY: ${env:STATICMAN_RSA_PRIVATE_KEY}
